@@ -28,7 +28,7 @@ export default function Footer() {
         <div>
          <a href="#home" className="flex items-center gap-2 mb-4">
             <img
-              src="/image/Rakeshlogo2.png"
+              src="/image/Rakeshlogo3.png"
               alt="Logo"
               className="w-15 h-15 object-contain transition-transform duration-300 hover:scale-110"
             />
