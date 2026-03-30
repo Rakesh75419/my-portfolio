@@ -184,7 +184,7 @@ export default function Hero() {
                   {/* Image */}
                   <div className="w-full h-full rounded-full overflow-hidden">
                     <img
-                      src="/image/Project.jpg"
+                      src="/image/RakeshP1.jpeg"
                       className="w-full h-full object-cover rounded-full"
                     />
                   </div>
