@@ -30,7 +30,7 @@ export default function Footer() {
             <img
               src="/image/rakeshlogo3.png"
               alt="Logo"
-              className="w-15 h-15 object-contain transition-transform duration-300 hover:scale-110"
+              className="w-12 h-12 object-contain transition-transform duration-300 hover:scale-110"
             />
           <h3 className="text-xl font-bold  text-gray-900 dark:text-white">
           <span className="hover:font-bungee hover:scale-110 transition-all duration-300 inline-block">
