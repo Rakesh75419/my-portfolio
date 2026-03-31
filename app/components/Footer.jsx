@@ -8,8 +8,8 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function Footer() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf"; 
-    link.download = "resume.pdf";
+    link.href = "/RAKESH@CV(2).pdf"; 
+    link.download = "RAKESH@CV(2).pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -28,7 +28,7 @@ export default function Footer() {
         <div>
          <a href="#home" className="flex items-center gap-2 mb-4">
             <img
-              src="/image/Rakeshlogo3.png"
+              src="/image/rakeshlogo3.png"
               alt="Logo"
               className="w-15 h-15 object-contain transition-transform duration-300 hover:scale-110"
             />
