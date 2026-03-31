@@ -27,10 +27,10 @@ export default function Footer() {
         {/* Column 1 - Brand */}
         <div>
          <a href="#home" className="flex items-center gap-2 mb-4">
-            <img
-              src="/image/rakeshlogo3.png"
+           <img
+              src="/image/RakeshLogo3.png"
               alt="Logo"
-              className="w-12 h-12 object-contain transition-transform duration-300 hover:scale-110"
+              className="w-[60px] h-[60px] object-contain"
             />
           <h3 className="text-xl font-bold  text-gray-900 dark:text-white">
           <span className="hover:font-bungee hover:scale-110 transition-all duration-300 inline-block">
