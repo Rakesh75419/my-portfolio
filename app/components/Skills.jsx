@@ -4,29 +4,41 @@ import {
   FaReact,
   FaNodeJs,
   FaGitAlt,
-  FaPython,
-  FaNode,
-  FaMongoDB
+  FaMongoDB,
+
+
   
 } from "react-icons/fa";
-import { SiJavascript, SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb } from "react-icons/si";
-import { MdPermIdentity } from "react-icons/md";
-import { SiExpress } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
+
 
 export default function Skills() {
-  const skills = [
-    { name: "Next.js", icon: <SiNextdotjs size={40} />, color: "from-gray-700 to-black" },
-    { name: "React.js", icon: <FaReact size={40} />, color: "from-cyan-400 to-blue-500" },
-    { name: "Express.js", icon: <SiExpress />, color: "from-gray-700 to-black" },
-    { name: "Tailwind", icon: <SiTailwindcss size={40} />, color: "from-cyan-400 to-cyan-600" },
-    { name: "HTML", icon: <FaHtml5 size={40} />, color: "from-orange-500 to-red-500" },
-    { name: "CSS", icon: <FaCss3Alt size={40} />, color: "from-blue-500 to-cyan-500" },
-    { name: "Javascript", icon: <SiJavascript size={40} />, color: "from-yellow-400 to-yellow-600" },
-    { name: "API Integration", icon: "🔌", color: "from-indigo-500 to-blue-600" },
-    { name: "REST API", icon: "🚀", color: "from-green-500 to-green-700" },
-    { name: "Git", icon: <FaGitAlt size={40} />, color: "from-orange-500 to-red-500" },
-    { name: "Node.js", icon: <FaNodeJs size={40} />, color: "from-green-500 to-green-700" },
-    { name: "MongoDB", icon: <SiMongodb size={40} />, color: "from-green-400 to-green-600" },
+  const skills =
+   [
+     { name: "React.js", icon: <FaReact size={40} />, color: "from-cyan-400 to-blue-500" },
+
+     { name: "Javascript", icon: <SiJavascript size={40} />, color: "from-yellow-400 to-yellow-600" },
+
+     { name: "Tailwind", icon: <SiTailwindcss size={40} />, color: "from-cyan-400 to-cyan-600" },
+
+     { name: "Express.js", icon: <SiExpress />, color: "from-gray-700 to-black" },
+
+     { name: "Git", icon: <FaGitAlt size={40} />, color: "from-orange-500 to-red-500" },
+
+     { name: "Node.js", icon: <FaNodeJs size={40} />, color: "from-green-500 to-green-700" },
+
+     { name: "HTML", icon: <FaHtml5 size={40} />, color: "from-orange-500 to-red-500" },
+
+     { name: "CSS", icon: <FaCss3Alt size={40} />, color: "from-blue-500 to-cyan-500" },
+    
+     { name: "MongoDB", icon: <SiMongodb size={40} />, color: "from-green-400 to-green-600" },
+
+     { name: "API Integration", icon: "🔌", color: "from-indigo-500 to-blue-600" },
+
+     { name: "Next.js", icon: <SiNextdotjs size={40} />, color: "from-gray-700 to-black" },
+
+     { name: "REST API", icon: "🚀", color: "from-green-500 to-green-700" },
+
     ];
 
   return (
